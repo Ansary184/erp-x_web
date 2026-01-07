@@ -1,0 +1,458 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-WE5179NT0H"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-WE5179NT0H');
+</script>
+    <title>ERP-X Ecosystem | منظومة الإدارة المتكاملة</title>
+    <meta name="description" content="منظومة ERP-X المتكاملة: الحل الأمثل لإدارة الأنشطة التجارية، المطاعم، المعامل الطبية، المدارس، والجيمات. نظام سحابي ذكي، تقارير دقيقة، وواجهة عربية سهلة الاستخدام.">
+
+<meta name="keywords" content="برنامج محاسبة, نظام ERP, إدارة مطاعم, إدارة معامل, إدارة مدارس, إدارة جيم, ERP-X, Food-X, Lab-X, Edu-X, Gym-X">
+    <link rel="icon" href="logo.png" type="image/png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@300;400;500;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    
+    <script src="https://cdn.tailwindcss.com"></script>
+    
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    fontFamily: {
+                        sans: ['Tajawal', 'sans-serif'],
+                    },
+                    colors: {
+                        primary: {
+                            50: '#f0fdf4',
+                            100: '#dcfce7',
+                            500: '#22c55e',
+                            700: '#15803d',
+                            900: '#14532d',
+                        },
+                        surface: {
+                            light: '#FDFDF5',
+                            card: '#ffffff',
+                        }
+                    },
+                    borderRadius: {
+                        '4xl': '2rem',
+                        '5xl': '2.5rem',
+                    }
+                }
+            }
+        }
+    </script>
+
+    <style>
+        body {
+            background-color: #FDFDF5;
+            color: #1A1C19;
+        }
+        
+        .material-card {
+            transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+            border: 1px solid rgba(0,0,0,0.05);
+            height: 100%; /* لضمان تساوي الارتفاعات */
+        }
+        
+        .material-card:hover {
+            transform: translateY(-8px) scale(1.01);
+            box-shadow: 0 20px 30px -10px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+            background-color: #ffffff;
+            border-color: transparent;
+        }
+
+        .blob {
+            position: absolute;
+            filter: blur(80px);
+            z-index: -1;
+            opacity: 0.6;
+            animation: float 10s infinite ease-in-out;
+        }
+        
+        @keyframes float {
+            0% { transform: translate(0, 0); }
+            50% { transform: translate(20px, 40px); }
+            100% { transform: translate(0, 0); }
+        }
+    </style>
+</head>
+<body class="overflow-x-hidden">
+
+    <div class="blob bg-green-200 w-96 h-96 rounded-full top-0 right-0"></div>
+    <div class="blob bg-blue-200 w-96 h-96 rounded-full bottom-0 left-0"></div>
+
+    <nav class="fixed w-full z-50 top-0 transition-all duration-300 backdrop-blur-md bg-white/70 border-b border-white/20" id="navbar">
+        <div class="container mx-auto px-6 py-4 flex justify-between items-center">
+            <div class="flex items-center gap-2">
+                <div class="w-10 h-10 bg-primary-700 rounded-xl flex items-center justify-center text-white font-bold text-xl shadow-lg">X</div>
+                <span class="text-2xl font-bold text-primary-900 tracking-tighter">ERP-X</span>
+            </div>
+            <div class="hidden md:flex gap-8 font-medium text-gray-600">
+                <a href="#home" class="hover:text-primary-700 transition">الرئيسية</a>
+                <a href="#systems" class="hover:text-primary-700 transition">الأنظمة</a>
+                <a href="#features" class="hover:text-primary-700 transition">المميزات</a>
+            </div>
+            <a href="#contact" class="hidden md:inline-block bg-primary-900 text-white px-6 py-3 rounded-full font-bold hover:bg-primary-700 transition shadow-lg hover:shadow-primary-500/30">
+                تواصل معنا
+            </a>
+        </div>
+    </nav>
+
+    <header id="home" class="relative min-h-screen flex items-center pt-20">
+        <div class="container mx-auto px-6 grid lg:grid-cols-2 gap-12 items-center">
+            <div data-aos="fade-left" data-aos-duration="1000">
+                <div class="inline-block bg-primary-100 text-primary-900 px-4 py-2 rounded-full text-sm font-bold mb-6 border border-primary-200">
+                    ✨ الجيل القادم من أنظمة الإدارة
+                </div>
+                <h1 class="text-5xl lg:text-7xl font-black leading-tight text-gray-900 mb-6">
+                    منظومة واحدة.<br>
+                    <span class="text-primary-700">خمسة قطاعات.</span><br>
+                    تحكم كامل.
+                </h1>
+                <p class="text-xl text-gray-600 mb-8 leading-relaxed max-w-lg">
+                    اكتشف قوة التكامل مع ERP-X لإدارة الشركات، التعليم، المطاعم، المعامل، والأندية الرياضية بأحدث تقنيات الويب.
+                </p>
+                <div class="flex flex-wrap gap-4">
+                    <a href="#contact" class="bg-primary-900 text-white px-8 py-4 rounded-2xl font-bold hover:bg-primary-800 transition shadow-xl flex items-center gap-2">
+                        <i class="bi bi-telephone-outbound"></i> اطلب نسختك
+                    </a>
+                    <a href="#systems" class="bg-white text-primary-900 border border-primary-100 px-8 py-4 rounded-2xl font-bold hover:bg-primary-50 transition flex items-center gap-2">
+                        <i class="bi bi-grid"></i> تصفح الأنظمة
+                    </a>
+                </div>
+            </div>
+            
+            <div class="relative hidden lg:block" data-aos="zoom-in" data-aos-duration="1200">
+                <div class="relative z-10 bg-white/40 backdrop-blur-xl border border-white/50 p-10 rounded-[3rem] shadow-2xl">
+                    <div class="grid grid-cols-2 gap-6">
+                        <div class="bg-white p-6 rounded-3xl shadow-sm text-center transform translate-y-4">
+                            <i class="bi bi-shop text-4xl text-blue-500 mb-2 block"></i>
+                            <span class="font-bold text-gray-700">إدارة مخازن</span>
+                        </div>
+                        <div class="bg-white p-6 rounded-3xl shadow-sm text-center">
+                            <i class="bi bi-mortarboard text-4xl text-purple-500 mb-2 block"></i>
+                            <span class="font-bold text-gray-700">منصة تعليم</span>
+                        </div>
+                        <div class="bg-white p-6 rounded-3xl shadow-sm text-center transform translate-y-4">
+                            <i class="bi bi-heart-pulse text-4xl text-red-500 mb-2 block"></i>
+                            <span class="font-bold text-gray-700">مختبرات</span>
+                        </div>
+                        <div class="bg-white p-6 rounded-3xl shadow-sm text-center">
+                            <i class="bi bi-cup-hot text-4xl text-orange-500 mb-2 block"></i>
+                            <span class="font-bold text-gray-700">ضيافة</span>
+                        </div>
+                    </div>
+                    <div class="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 bg-gray-900 text-white w-24 h-24 rounded-full flex items-center justify-center font-bold shadow-2xl text-2xl border-8 border-white/50">
+                        X
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <section id="systems" class="py-24 relative">
+        <div class="container mx-auto px-6">
+            <div class="text-center mb-16" data-aos="fade-up">
+                <h2 class="text-4xl font-black text-primary-900 mb-4">حلول متخصصة لكل قطاع</h2>
+                <p class="text-gray-600 max-w-2xl mx-auto">خمسة أنظمة قوية، صممت كل منها لتلبية احتياجات قطاع محدد بدقة متناهية.</p>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 justify-center">
+                
+                <div class="material-card bg-white p-8 rounded-4xl relative overflow-hidden group flex flex-col" data-aos="fade-up" data-aos-delay="100">
+                    <div class="absolute top-0 right-0 bg-blue-500 w-32 h-32 rounded-bl-full opacity-5 transition-all group-hover:scale-150 group-hover:opacity-10"></div>
+                    <div class="w-16 h-16 bg-blue-50 text-blue-600 rounded-2xl flex items-center justify-center text-3xl mb-6 group-hover:bg-blue-600 group-hover:text-white transition-colors">
+                        <i class="bi bi-buildings"></i>
+                    </div>
+                    <h3 class="text-2xl font-bold mb-3 text-gray-900">ERP-X التجاري</h3>
+                    <p class="text-gray-500 text-sm mb-6">الحل الشامل للمحلات التجارية، الشركات، ومراكز الصيانة.</p>
+                    <ul class="space-y-3 text-sm text-gray-700 mb-6 flex-grow">
+                        <li class="flex items-center gap-2"><i class="bi bi-check-circle-fill text-blue-500"></i> تتبع السيريال نمبر للأجهزة</li>
+                        <li class="flex items-center gap-2"><i class="bi bi-check-circle-fill text-blue-500"></i> دورة صيانة ودعم فني متكاملة</li>
+                        <li class="flex items-center gap-2"><i class="bi bi-check-circle-fill text-blue-500"></i> إدارة الأصول وحركات رأس المال</li>
+                    </ul>
+                    <div class="mt-auto pt-4 border-t border-gray-100">
+                        <a href="erp-x.html" class="flex items-center justify-between text-blue-600 font-bold hover:bg-blue-50 p-3 rounded-xl transition-all group/link">
+                            <span>اعرف المزيد</span>
+                            <i class="bi bi-arrow-left group-hover/link:-translate-x-1 transition-transform"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="material-card bg-white p-8 rounded-4xl relative overflow-hidden group flex flex-col" data-aos="fade-up" data-aos-delay="200">
+                    <div class="absolute top-0 right-0 bg-orange-500 w-32 h-32 rounded-bl-full opacity-5 transition-all group-hover:scale-150 group-hover:opacity-10"></div>
+                    <div class="w-16 h-16 bg-orange-50 text-orange-600 rounded-2xl flex items-center justify-center text-3xl mb-6 group-hover:bg-orange-600 group-hover:text-white transition-colors">
+                        <i class="bi bi-egg-fried"></i>
+                    </div>
+                    <h3 class="text-2xl font-bold mb-3 text-gray-900">Food-X للضيافة</h3>
+                    <p class="text-gray-500 text-sm mb-6">نظام إدارة المطاعم، الكافيهات، ومحلات الحلويات.</p>
+                    <ul class="space-y-3 text-sm text-gray-700 mb-6 flex-grow">
+                        <li class="flex items-center gap-2"><i class="bi bi-check-circle-fill text-orange-500"></i> شاشة مطبخ ذكية (KDS)</li>
+                        <li class="flex items-center gap-2"><i class="bi bi-check-circle-fill text-orange-500"></i> إدارة المكونات (Recipe Costing)</li>
+                        <li class="flex items-center gap-2"><i class="bi bi-check-circle-fill text-orange-500"></i> صلاحيات شيف وويتر وكاشير</li>
+                    </ul>
+                    <div class="mt-auto pt-4 border-t border-gray-100">
+                        <a href="food-x.html" class="flex items-center justify-between text-orange-600 font-bold hover:bg-orange-50 p-3 rounded-xl transition-all group/link">
+                            <span>اعرف المزيد</span>
+                            <i class="bi bi-arrow-left group-hover/link:-translate-x-1 transition-transform"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="material-card bg-white p-8 rounded-4xl relative overflow-hidden group flex flex-col" data-aos="fade-up" data-aos-delay="300">
+                    <div class="absolute top-0 right-0 bg-red-500 w-32 h-32 rounded-bl-full opacity-5 transition-all group-hover:scale-150 group-hover:opacity-10"></div>
+                    <div class="w-16 h-16 bg-red-50 text-red-600 rounded-2xl flex items-center justify-center text-3xl mb-6 group-hover:bg-red-600 group-hover:text-white transition-colors">
+                        <i class="bi bi-virus2"></i>
+                    </div>
+                    <h3 class="text-2xl font-bold mb-3 text-gray-900">Lab-X الطبي</h3>
+                    <p class="text-gray-500 text-sm mb-6">نظام LIMS متطور لإدارة المعامل الطبية والمختبرات.</p>
+                    <ul class="space-y-3 text-sm text-gray-700 mb-6 flex-grow">
+                        <li class="flex items-center gap-2"><i class="bi bi-check-circle-fill text-red-500"></i> تتبع العينات بالباركود</li>
+                        <li class="flex items-center gap-2"><i class="bi bi-check-circle-fill text-red-500"></i> تنبيهات القيم الحرجة (Critical)</li>
+                        <li class="flex items-center gap-2"><i class="bi bi-check-circle-fill text-red-500"></i> إدارة التعاقدات والتأمين</li>
+                    </ul>
+                    <div class="mt-auto pt-4 border-t border-gray-100">
+                        <a href="lab-x.html" class="flex items-center justify-between text-red-600 font-bold hover:bg-red-50 p-3 rounded-xl transition-all group/link">
+                            <span>اعرف المزيد</span>
+                            <i class="bi bi-arrow-left group-hover/link:-translate-x-1 transition-transform"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="material-card bg-white p-8 rounded-4xl relative overflow-hidden group flex flex-col" data-aos="fade-up" data-aos-delay="400">
+                    <div class="absolute top-0 right-0 bg-teal-500 w-32 h-32 rounded-bl-full opacity-5 transition-all group-hover:scale-150 group-hover:opacity-10"></div>
+                    <div class="w-16 h-16 bg-teal-50 text-teal-600 rounded-2xl flex items-center justify-center text-3xl mb-6 group-hover:bg-teal-600 group-hover:text-white transition-colors">
+                        <i class="bi bi-activity"></i>
+                    </div>
+                    <h3 class="text-2xl font-bold mb-3 text-gray-900">Gym-X للياقة</h3>
+                    <p class="text-gray-500 text-sm mb-6">إدارة الجيم، الصالات الرياضية، ومراكز اللياقة البدنية.</p>
+                    <ul class="space-y-3 text-sm text-gray-700 mb-6 flex-grow">
+                        <li class="flex items-center gap-2"><i class="bi bi-check-circle-fill text-teal-500"></i> تجميد العضويات والاشتراكات</li>
+                        <li class="flex items-center gap-2"><i class="bi bi-check-circle-fill text-teal-500"></i> تتبع قياسات الجسم (InBody)</li>
+                        <li class="flex items-center gap-2"><i class="bi bi-check-circle-fill text-teal-500"></i> حجز الكلاسات (سعة محددة)</li>
+                    </ul>
+                    <div class="mt-auto pt-4 border-t border-gray-100">
+                        <a href="gym-x.html" class="flex items-center justify-between text-teal-600 font-bold hover:bg-teal-50 p-3 rounded-xl transition-all group/link">
+                            <span>اعرف المزيد</span>
+                            <i class="bi bi-arrow-left group-hover/link:-translate-x-1 transition-transform"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="material-card bg-white p-8 rounded-4xl relative overflow-hidden group flex flex-col" data-aos="fade-up" data-aos-delay="500">
+                    <div class="absolute top-0 right-0 bg-purple-500 w-32 h-32 rounded-bl-full opacity-5 transition-all group-hover:scale-150 group-hover:opacity-10"></div>
+                    <div class="w-16 h-16 bg-purple-50 text-purple-600 rounded-2xl flex items-center justify-center text-3xl mb-6 group-hover:bg-purple-600 group-hover:text-white transition-colors">
+                        <i class="bi bi-mortarboard-fill"></i>
+                    </div>
+                    <h3 class="text-2xl font-bold mb-3 text-gray-900">Edu-X للتعليم</h3>
+                    <p class="text-gray-500 text-sm mb-6">منصة LMS متكاملة للمدارس، المراكز، والدروس الخصوصية.</p>
+                    <ul class="space-y-3 text-sm text-gray-700 mb-6 flex-grow">
+                        <li class="flex items-center gap-2"><i class="bi bi-check-circle-fill text-purple-500"></i> 3 لوحات تحكم (إدارة، معلم، طالب)</li>
+                        <li class="flex items-center gap-2"><i class="bi bi-check-circle-fill text-purple-500"></i> حضور ذكي بالباركود (QR)</li>
+                        <li class="flex items-center gap-2"><i class="bi bi-check-circle-fill text-purple-500"></i> اختبارات أونلاين وتصحيح تلقائي</li>
+                    </ul>
+                    <div class="mt-auto pt-4 border-t border-gray-100">
+                        <a href="edu-x.html" class="flex items-center justify-between text-purple-600 font-bold hover:bg-purple-50 p-3 rounded-xl transition-all group/link">
+                            <span>اعرف المزيد</span>
+                            <i class="bi bi-arrow-left group-hover/link:-translate-x-1 transition-transform"></i>
+                        </a>
+                    </div>
+                </div>
+<div class="material-card bg-white p-8 rounded-4xl relative overflow-hidden group flex flex-col" data-aos="fade-up" data-aos-delay="600">
+    <div class="absolute top-0 right-0 bg-[#006a6a] w-32 h-32 rounded-bl-full opacity-5 transition-all group-hover:scale-150 group-hover:opacity-10"></div>
+    
+    <div class="w-16 h-16 bg-teal-50 text-[#006a6a] rounded-2xl flex items-center justify-center text-3xl mb-6 group-hover:bg-[#006a6a] group-hover:text-white transition-colors">
+        <i class="bi bi-heart-fill"></i>
+    </div>
+    
+    <h3 class="text-2xl font-bold mb-3 text-gray-900">Gam3eya-X للخير</h3>
+    <p class="text-gray-500 text-sm mb-6">نظام متكامل لإدارة الجمعيات الخيرية، القروض الميسرة، والمساعدات.</p>
+    
+    <ul class="space-y-3 text-sm text-gray-700 mb-6 flex-grow">
+        <li class="flex items-center gap-2"><i class="bi bi-check-circle-fill text-[#006a6a]"></i> إدارة القروض وجدولة الأقساط آلياً</li>
+        <li class="flex items-center gap-2"><i class="bi bi-check-circle-fill text-[#006a6a]"></i> تتبع المساعدات ومنع التكرار</li>
+        <li class="flex items-center gap-2"><i class="bi bi-check-circle-fill text-[#006a6a]"></i> يعمل كتطبيق موبايل (PWA)</li>
+    </ul>
+    
+    <div class="mt-auto pt-4 border-t border-gray-100">
+        <a href="gam3eya-x.html" class="flex items-center justify-between text-[#006a6a] font-bold hover:bg-teal-50 p-3 rounded-xl transition-all group/link">
+            <span>اعرف المزيد</span>
+            <i class="bi bi-arrow-left group-hover/link:-translate-x-1 transition-transform"></i>
+        </a>
+    </div>
+</div>
+            </div>
+        </div>
+    </section>
+
+    <section id="features" class="py-20 bg-white">
+        <div class="container mx-auto px-6">
+            <div class="grid grid-cols-2 md:grid-cols-4 gap-8 text-center">
+                <div class="p-4 hover:translate-y-[-5px] transition duration-300" data-aos="fade-up" data-aos-delay="0">
+                    <i class="bi bi-lightning-charge text-4xl text-yellow-500 mb-4 block"></i>
+                    <h4 class="font-bold text-lg">أداء صاروخي</h4>
+                    <p class="text-sm text-gray-500">مبني على Node.js & MySQL</p>
+                </div>
+                <div class="p-4 hover:translate-y-[-5px] transition duration-300" data-aos="fade-up" data-aos-delay="100">
+                    <i class="bi bi-shield-lock text-4xl text-green-500 mb-4 block"></i>
+                    <h4 class="font-bold text-lg">حماية وأمان</h4>
+                    <p class="text-sm text-gray-500">نسخ احتياطي يومي مشفر</p>
+                </div>
+                <div class="p-4 hover:translate-y-[-5px] transition duration-300" data-aos="fade-up" data-aos-delay="200">
+                    <i class="bi bi-phone text-4xl text-blue-500 mb-4 block"></i>
+                    <h4 class="font-bold text-lg">يعمل في كل مكان</h4>
+                    <p class="text-sm text-gray-500">كمبيوتر، تابلت، وموبايل</p>
+                </div>
+                <div class="p-4 hover:translate-y-[-5px] transition duration-300" data-aos="fade-up" data-aos-delay="300">
+                    <i class="bi bi-whatsapp text-4xl text-green-600 mb-4 block"></i>
+                    <h4 class="font-bold text-lg">تنبيهات ذكية</h4>
+                    <p class="text-sm text-gray-500">تكامل مباشر مع واتساب</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="py-24 relative overflow-hidden">
+        <div class="absolute inset-0 bg-primary-900 rounded-t-[4rem]"></div>
+        
+        <div class="container mx-auto px-6 relative z-10">
+            <div class="text-center mb-16">
+                <h2 class="text-4xl font-black text-white mb-4">جاهز لتطوير أعمالك؟</h2>
+                <p class="text-primary-100">تواصل معنا الآن للحصول على استشارة مجانية وعرض توضيحي للنظام المناسب لك.</p>
+            </div>
+
+            <div class="grid lg:grid-cols-2 gap-12">
+                <div class="space-y-6">
+                    <a href="https://wa.me/201010676035" target="_blank" class="flex items-center gap-6 bg-white/10 backdrop-blur-lg border border-white/10 p-6 rounded-3xl hover:bg-white/20 transition group cursor-pointer" data-aos="fade-right">
+                        <div class="w-16 h-16 bg-green-500 rounded-full flex items-center justify-center text-3xl text-white shadow-lg group-hover:scale-110 transition">
+                            <i class="bi bi-whatsapp"></i>
+                        </div>
+                        <div>
+                            <p class="text-primary-200 text-sm">تواصل مباشرة عبر واتساب</p>
+                            <p class="text-2xl font-bold text-white font-mono tracking-wider" dir="ltr">+20 101 067 6035</p>
+                        </div>
+                    </a>
+
+                    <a href="tel:01145471067" class="flex items-center gap-6 bg-white/10 backdrop-blur-lg border border-white/10 p-6 rounded-3xl hover:bg-white/20 transition group cursor-pointer" data-aos="fade-right" data-aos-delay="100">
+                        <div class="w-16 h-16 bg-blue-500 rounded-full flex items-center justify-center text-3xl text-white shadow-lg group-hover:scale-110 transition">
+                            <i class="bi bi-telephone-fill"></i>
+                        </div>
+                        <div>
+                            <p class="text-primary-200 text-sm">اتصال هاتفي</p>
+                            <p class="text-2xl font-bold text-white font-mono tracking-wider" dir="ltr">+20 114 547 1067</p>
+                        </div>
+                    </a>
+
+                    <a href="mailto:ansary184@gmail.com" class="flex items-center gap-6 bg-white/10 backdrop-blur-lg border border-white/10 p-6 rounded-3xl hover:bg-white/20 transition group cursor-pointer" data-aos="fade-right" data-aos-delay="200">
+                        <div class="w-16 h-16 bg-orange-500 rounded-full flex items-center justify-center text-3xl text-white shadow-lg group-hover:scale-110 transition">
+                            <i class="bi bi-envelope-fill"></i>
+                        </div>
+                        <div>
+                            <p class="text-primary-200 text-sm">راسلنا عبر البريد</p>
+                            <p class="text-xl font-bold text-white">ansary184@gmail.com</p>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="bg-white p-8 rounded-3xl shadow-2xl" data-aos="fade-left">
+                    <h3 class="text-2xl font-bold text-gray-900 mb-6">أرسل لنا رسالة</h3>
+                   <form class="space-y-4" onsubmit="return false;">
+                        <div>
+                            <label class="block text-sm font-medium text-gray-700 mb-1">الاسم الكريم</label>
+                            <input type="text" id="msgName" class="w-full px-4 py-3 rounded-xl bg-gray-50 border border-gray-200 focus:ring-2 focus:ring-primary-500 focus:border-transparent outline-none transition" placeholder="الاسم">
+                        </div>
+                        <div>
+                            <label class="block text-sm font-medium text-gray-700 mb-1">رقم الهاتف</label>
+                            <input type="tel" id="msgPhone" class="w-full px-4 py-3 rounded-xl bg-gray-50 border border-gray-200 focus:ring-2 focus:ring-primary-500 focus:border-transparent outline-none transition" placeholder="01xxxxxxxxx">
+                        </div>
+                        <div>
+                            <label class="block text-sm font-medium text-gray-700 mb-1">النظام المهتم به</label>
+                            <select id="msgSystem" class="w-full px-4 py-3 rounded-xl bg-gray-50 border border-gray-200 focus:ring-2 focus:ring-primary-500 focus:border-transparent outline-none transition">
+                                <option value="ERP-X (التجاري)">ERP-X (التجاري)</option>
+                                <option value="Food-X (المطاعم)">Food-X (المطاعم)</option>
+                                <option value="Lab-X (المعامل)">Lab-X (المعامل)</option>
+                                <option value="Edu-X (التعليم)">Edu-X (التعليم)</option>
+                                <option value="Gym-X (الجيم)">Gym-X (الجيم)</option>
+                            </select>
+                        </div>
+                        <button type="button" onclick="sendToWhatsApp()" class="w-full bg-primary-900 text-white font-bold py-4 rounded-xl hover:bg-primary-800 transition shadow-lg transform hover:-translate-y-1">
+                            <i class="bi bi-whatsapp ml-2"></i> إرسال الطلب عبر واتساب
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="bg-gray-900 text-white py-8 border-t border-white/10">
+        <div class="container mx-auto px-6 text-center">
+            <p class="text-gray-400 text-sm">جميع الحقوق محفوظة © 2025 لمنظومة <span class="text-primary-500 font-bold">ERP-X</span>. تطوير احترافي.</p>
+        </div>
+    </footer>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            once: true,
+            offset: 50,
+            duration: 800,
+            easing: 'ease-out-cubic',
+        });
+        
+        // تغيير خلفية الناف بار عند التمرير
+        window.addEventListener('scroll', function() {
+            const navbar = document.getElementById('navbar');
+            if (window.scrollY > 50) {
+                navbar.classList.add('shadow-sm', 'bg-white/90');
+                navbar.classList.remove('bg-white/70');
+            } else {
+                navbar.classList.remove('shadow-sm', 'bg-white/90');
+                navbar.classList.add('bg-white/70');
+            }
+        });
+    </script>
+    <script>
+    function sendToWhatsApp() {
+        // 1. جلب البيانات من الحقول
+        var name = document.getElementById('msgName').value;
+        var phone = document.getElementById('msgPhone').value;
+        var system = document.getElementById('msgSystem').value;
+
+        // 2. التحقق من أن الحقول ليست فارغة
+        if (name === "" || phone === "") {
+            alert("يرجى كتابة الاسم ورقم الهاتف أولاً");
+            return;
+        }
+
+        // 3. تجهيز نص الرسالة وتنسيقها
+        // \n تعني سطر جديد
+        var message = "مرحباً، أود الاستفسار بخصوص نظام ERP-X.\n\n";
+        message += "👤 *الاسم:* " + name + "\n";
+        message += "📱 *رقم الهاتف:* " + phone + "\n";
+        message += "💻 *النظام المهتم به:* " + system + "\n";
+        message += "\nيرجى التواصل معي للتفاصيل.";
+
+        // 4. تحويل النص لصيغة يفهمها الرابط (URL Encoding)
+        var encodedMessage = encodeURIComponent(message);
+
+        // 5. فتح واتساب (رقمك الدولي بدون +)
+        var waNumber = "201010676035";
+        var url = "https://wa.me/" + waNumber + "?text=" + encodedMessage;
+
+        window.open(url, '_blank');
+    }
+</script>
+</body>
+</html>

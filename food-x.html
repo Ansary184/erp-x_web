@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-WE5179NT0H"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-WE5179NT0H');
+</script>
+    <title>Food-X | نظام إدارة المطاعم والكافيهات</title>
+    <meta name="description" content="منظومة ERP-X المتكاملة: الحل الأمثل لإدارة الأنشطة التجارية، المطاعم، المعامل الطبية، المدارس، والجيمات. نظام سحابي ذكي، تقارير دقيقة، وواجهة عربية سهلة الاستخدام.">
+
+<meta name="keywords" content="برنامج محاسبة, نظام ERP, إدارة مطاعم, إدارة معامل, إدارة مدارس, إدارة جيم, ERP-X, Food-X, Lab-X, Edu-X, Gym-X">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@300;400;500;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    
+    <script src="https://cdn.tailwindcss.com"></script>
+    
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    fontFamily: {
+                        sans: ['Tajawal', 'sans-serif'],
+                    },
+                    colors: {
+                        food: {
+                            50: '#fffbeb',
+                            100: '#fef3c7',
+                            500: '#f59e0b',
+                            600: '#d97706',
+                            700: '#b45309', // اللون الأساسي (كهرماني/برتقالي)
+                            800: '#92400e',
+                            900: '#78350f',
+                        }
+                    },
+                    borderRadius: {
+                        '4xl': '2.5rem',
+                        '5xl': '3rem',
+                    }
+                }
+            }
+        }
+    </script>
+
+    <style>
+        body {
+            background-color: #FAFAFA;
+            color: #1F2937;
+            scroll-behavior: smooth;
+        }
+        .glass-card {
+            background: rgba(255, 255, 255, 0.95);
+            backdrop-filter: blur(10px);
+            border: 1px solid rgba(245, 158, 11, 0.1);
+            box-shadow: 0 10px 30px -10px rgba(245, 158, 11, 0.1);
+            transition: all 0.4s ease;
+        }
+        .glass-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 20px 40px -12px rgba(217, 119, 6, 0.2);
+            border-color: #fef3c7;
+        }
+        .feature-icon {
+            background: linear-gradient(135deg, #fef3c7 0%, #fffbeb 100%);
+            color: #b45309;
+        }
+        .status-badge {
+            padding: 4px 12px;
+            border-radius: 9999px;
+            font-size: 0.75rem;
+            font-weight: 700;
+        }
+    </style>
+</head>
+<body class="overflow-x-hidden">
+
+    <a href="index.html" class="fixed top-6 right-6 z-50 bg-white p-3 rounded-full shadow-xl text-food-700 hover:bg-food-50 transition transform hover:scale-110 group border border-food-100">
+        <i class="bi bi-arrow-right text-xl font-bold"></i>
+    </a>
+
+    <header class="relative pt-24 pb-32 bg-white overflow-hidden">
+        <div class="absolute top-0 left-0 w-full h-full pointer-events-none">
+            <div class="absolute top-[-10%] right-[-5%] w-[500px] h-[500px] bg-yellow-100 rounded-full blur-[120px] opacity-50"></div>
+            <div class="absolute bottom-[-10%] left-[-10%] w-[600px] h-[600px] bg-orange-100 rounded-full blur-[120px] opacity-50"></div>
+            
+            <div class="absolute top-20 left-20 text-food-300 text-6xl opacity-30 animate-bounce"><i class="bi bi-cup-hot"></i></div>
+            <div class="absolute bottom-40 right-20 text-food-300 text-8xl opacity-30 animate-pulse"><i class="bi bi-egg-fried"></i></div>
+        </div>
+
+        <div class="container mx-auto px-6 relative z-10 text-center">
+            <span class="inline-block py-2 px-4 rounded-full bg-orange-50 text-orange-700 text-sm font-bold border border-orange-100 mb-6" data-aos="fade-down">
+                🍔 الحل المتكامل للمطاعم والكافيهات
+            </span>
+            <h1 class="text-5xl md:text-7xl font-black text-gray-900 mb-6 leading-tight" data-aos="fade-up" data-aos-delay="100">
+                Food-X<br>
+                <span class="text-transparent bg-clip-text bg-gradient-to-r from-food-700 to-orange-500">تذوق طعم الإدارة الذكية.</span>
+            </h1>
+            <p class="text-xl text-gray-600 max-w-3xl mx-auto leading-relaxed mb-10" data-aos="fade-up" data-aos-delay="200">
+                من استلام الطلب، إلى شاشة المطبخ (KDS)، وحتى إدارة الطاولات والمخزون. نظام يغطي كل زاوية في مطعمك لضمان سرعة الخدمة ورضا العملاء.
+            </p>
+            
+            <div class="flex justify-center gap-4" data-aos="fade-up" data-aos-delay="300">
+                <a href="#demo" class="bg-food-900 text-white px-8 py-4 rounded-2xl font-bold hover:bg-food-800 transition shadow-lg hover:shadow-food-500/30 flex items-center gap-2">
+                    <i class="bi bi-fire"></i> تجربة النظام
+                </a>
+            </div>
+        </div>
+    </header>
+
+    <section class="py-20 -mt-20 relative z-20">
+        <div class="container mx-auto px-6">
+            <div class="bg-white p-10 rounded-4xl shadow-xl border border-gray-100" data-aos="zoom-in">
+                <div class="text-center mb-10">
+                    <h2 class="text-3xl font-bold text-gray-900">دورة عمل الطلب (Order Lifecycle)</h2>
+                    <p class="text-gray-500 mt-2">تناغم تام بين الصالة والمطبخ والكاشير</p>
+                </div>
+                
+                <div class="grid grid-cols-1 md:grid-cols-4 gap-6 text-center relative">
+                    <div class="hidden md:block absolute top-1/2 left-0 w-full h-1 bg-orange-100 -z-10 -translate-y-1/2"></div>
+
+                    <div class="bg-white p-6 rounded-3xl border border-orange-50 shadow-sm hover:shadow-md transition transform hover:-translate-y-2">
+                        <div class="w-16 h-16 bg-food-100 text-food-700 rounded-full flex items-center justify-center text-2xl mx-auto mb-4">
+                            <i class="bi bi-pencil-square"></i>
+                        </div>
+                        <h4 class="font-bold text-lg mb-1">تسجيل الطلب</h4>
+                        <p class="text-sm text-gray-500">ويتر / كاشير</p>
+                    </div>
+
+                    <div class="bg-white p-6 rounded-3xl border border-orange-50 shadow-sm hover:shadow-md transition transform hover:-translate-y-2">
+                        <div class="w-16 h-16 bg-food-100 text-food-700 rounded-full flex items-center justify-center text-2xl mx-auto mb-4">
+                            <i class="bi bi-display"></i>
+                        </div>
+                        <h4 class="font-bold text-lg mb-1">شاشة المطبخ (KDS)</h4>
+                        <p class="text-sm text-gray-500">استلام الشيف (تحضير)</p>
+                    </div>
+
+                    <div class="bg-white p-6 rounded-3xl border border-orange-50 shadow-sm hover:shadow-md transition transform hover:-translate-y-2">
+                        <div class="w-16 h-16 bg-food-100 text-food-700 rounded-full flex items-center justify-center text-2xl mx-auto mb-4">
+                            <i class="bi bi-bell-fill"></i>
+                        </div>
+                        <h4 class="font-bold text-lg mb-1">جاهز للتقديم</h4>
+                        <p class="text-sm text-gray-500">إشعار الويتر</p>
+                    </div>
+
+                    <div class="bg-white p-6 rounded-3xl border border-orange-50 shadow-sm hover:shadow-md transition transform hover:-translate-y-2">
+                        <div class="w-16 h-16 bg-food-100 text-food-700 rounded-full flex items-center justify-center text-2xl mx-auto mb-4">
+                            <i class="bi bi-receipt"></i>
+                        </div>
+                        <h4 class="font-bold text-lg mb-1">الدفع والإغلاق</h4>
+                        <p class="text-sm text-gray-500">إصدار الفاتورة</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="py-20 bg-white">
+        <div class="container mx-auto px-6">
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+
+                <div class="glass-card p-8 rounded-4xl" data-aos="fade-up" data-aos-delay="100">
+                    <div class="w-16 h-16 feature-icon rounded-2xl flex items-center justify-center text-3xl mb-6">
+                        <i class="bi bi-grid-3x3"></i>
+                    </div>
+                    <h3 class="text-2xl font-bold mb-4">إدارة الطاولات والصالة</h3>
+                    <ul class="space-y-3 text-gray-600 text-sm">
+                        <li class="flex items-center gap-2"><i class="bi bi-check-circle-fill text-food-600"></i> خريطة تفاعلية لحالة الطاولات (متاح، مشغول، محجوز).</li>
+                        <li class="flex items-center gap-2"><i class="bi bi-check-circle-fill text-food-600"></i> تحديد سعة كل طاولة (Capacity).</li>
+                        <li class="flex items-center gap-2"><i class="bi bi-check-circle-fill text-food-600"></i> ربط الطلبات برقم الطاولة تلقائياً.</li>
+                    </ul>
+                </div>
+
+                <div class="glass-card p-8 rounded-4xl" data-aos="fade-up" data-aos-delay="200">
+                    <div class="w-16 h-16 feature-icon rounded-2xl flex items-center justify-center text-3xl mb-6">
+                        <i class="bi bi-tv"></i>
+                    </div>
+                    <h3 class="text-2xl font-bold mb-4">شاشة المطبخ الذكية (KDS)</h3>
+                    <ul class="space-y-3 text-gray-600 text-sm">
+                        <li class="flex items-center gap-2"><i class="bi bi-check-circle-fill text-food-600"></i> تحويل الطلبات مباشرة للشيف (`kitchen_orders`).</li>
+                        <li class="flex items-center gap-2"><i class="bi bi-check-circle-fill text-food-600"></i> تتبع الحالة: (جديد > تحضير > جاهز > تم التسليم).</li>
+                        <li class="flex items-center gap-2"><i class="bi bi-check-circle-fill text-food-600"></i> إلغاء الحاجة للفواتير الورقية داخل المطبخ.</li>
+                    </ul>
+                </div>
+
+                <div class="glass-card p-8 rounded-4xl" data-aos="fade-up" data-aos-delay="300">
+                    <div class="w-16 h-16 feature-icon rounded-2xl flex items-center justify-center text-3xl mb-6">
+                        <i class="bi bi-book"></i>
+                    </div>
+                    <h3 class="text-2xl font-bold mb-4">المنيو والمخزون</h3>
+                    <ul class="space-y-3 text-gray-600 text-sm">
+                        <li class="flex items-center gap-2"><i class="bi bi-check-circle-fill text-food-600"></i> تصنيف الوجبات (رئيسية، مشروبات، حلويات).</li>
+                        <li class="flex items-center gap-2"><i class="bi bi-check-circle-fill text-food-600"></i> إدارة مشتريات المواد الخام (`purchase_items`).</li>
+                        <li class="flex items-center gap-2"><i class="bi bi-check-circle-fill text-food-600"></i> تتبع المخزون (`track_stock`) لكل صنف.</li>
+                    </ul>
+                </div>
+
+                <div class="glass-card p-8 rounded-4xl" data-aos="fade-up" data-aos-delay="400">
+                    <div class="w-16 h-16 feature-icon rounded-2xl flex items-center justify-center text-3xl mb-6">
+                        <i class="bi bi-calculator"></i>
+                    </div>
+                    <h3 class="text-2xl font-bold mb-4">نقاط البيع (POS)</h3>
+                    <ul class="space-y-3 text-gray-600 text-sm">
+                        <li class="flex items-center gap-2"><i class="bi bi-check-circle-fill text-food-600"></i> دعم طلبات "تيك أواي" و "طاولة".</li>
+                        <li class="flex items-center gap-2"><i class="bi bi-check-circle-fill text-food-600"></i> إدارة الضرائب والخصومات (`tax`, `discount`).</li>
+                        <li class="flex items-center gap-2"><i class="bi bi-check-circle-fill text-food-600"></i> فواتير مفصلة (`invoice_items`).</li>
+                    </ul>
+                </div>
+
+                <div class="glass-card p-8 rounded-4xl" data-aos="fade-up" data-aos-delay="500">
+                    <div class="w-16 h-16 feature-icon rounded-2xl flex items-center justify-center text-3xl mb-6">
+                        <i class="bi bi-wallet2"></i>
+                    </div>
+                    <h3 class="text-2xl font-bold mb-4">المصروفات والأرباح</h3>
+                    <ul class="space-y-3 text-gray-600 text-sm">
+                        <li class="flex items-center gap-2"><i class="bi bi-check-circle-fill text-food-600"></i> تسجيل أنواع المصروفات (إيجار، رواتب، مرافق).</li>
+                        <li class="flex items-center gap-2"><i class="bi bi-check-circle-fill text-food-600"></i> تتبع المشتريات والموردين.</li>
+                        <li class="flex items-center gap-2"><i class="bi bi-check-circle-fill text-food-600"></i> تقارير مالية دقيقة.</li>
+                    </ul>
+                </div>
+
+                <div class="glass-card p-8 rounded-4xl" data-aos="fade-up" data-aos-delay="600">
+                    <div class="w-16 h-16 feature-icon rounded-2xl flex items-center justify-center text-3xl mb-6">
+                        <i class="bi bi-people-fill"></i>
+                    </div>
+                    <h3 class="text-2xl font-bold mb-4">إدارة طاقم العمل</h3>
+                    <ul class="space-y-3 text-gray-600 text-sm">
+                        <li class="flex items-center gap-2"><i class="bi bi-check-circle-fill text-food-600"></i> أدوار مخصصة: (مدير، شيف، ويتر، كاشير).</li>
+                        <li class="flex items-center gap-2"><i class="bi bi-check-circle-fill text-food-600"></i> حساب خاص لكل موظف.</li>
+                        <li class="flex items-center gap-2"><i class="bi bi-check-circle-fill text-food-600"></i> أمان البيانات والنسخ الاحتياطي.</li>
+                    </ul>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <section id="demo" class="py-24 bg-gradient-to-br from-food-900 to-food-800 text-white relative overflow-hidden">
+        <div class="absolute top-0 right-0 w-full h-full opacity-10 pointer-events-none bg-[url('https://www.transparenttextures.com/patterns/food.png')]"></div>
+
+        <div class="container mx-auto px-6 relative z-10">
+            <div class="flex flex-col lg:flex-row items-center gap-12">
+                
+                <div class="lg:w-1/2" data-aos="fade-left">
+                    <div class="inline-block bg-food-600 text-white px-4 py-1 rounded-full text-sm font-bold mb-4 border border-food-400">جاهز للتشغيل</div>
+                    <h2 class="text-4xl font-black mb-6">إدارة مطعمك بضغطة زر</h2>
+                    <p class="text-food-100 text-lg mb-8 leading-relaxed">
+                        النظام يحتوي على بيانات افتراضية (طاولات، منيو، موظفين) لتبدأ التجربة فوراً. جرب فتح طاولة، إرسال طلب للمطبخ، ثم طباعة الفاتورة.
+                    </p>
+                    
+                    <div class="grid grid-cols-2 gap-4">
+                        <div class="bg-white/10 p-3 rounded-xl border border-white/10">
+                            <span class="block text-2xl font-bold mb-1">7</span>
+                            <span class="text-sm text-food-200">طاولات جاهزة</span>
+                        </div>
+                        <div class="bg-white/10 p-3 rounded-xl border border-white/10">
+                            <span class="block text-2xl font-bold mb-1">5</span>
+                            <span class="text-sm text-food-200">أصناف منيو</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="lg:w-1/2 w-full" data-aos="fade-up">
+                    <div class="bg-white/10 backdrop-blur-md border border-white/20 rounded-4xl p-8 shadow-2xl">
+                        <h3 class="text-2xl font-bold mb-6 text-center border-b border-white/10 pb-4">بيانات الدخول (المدير)</h3>
+                        
+                        <div class="space-y-5">
+                            <div class="bg-black/30 p-4 rounded-2xl flex justify-between items-center group hover:bg-black/40 transition border border-white/5">
+                                <div>
+                                    <p class="text-xs text-gray-300 mb-1">اسم المستخدم (Username)</p>
+                                    <p class="text-xl font-mono font-bold text-food-300 tracking-wider">admin</p> </div>
+                                <button onclick="copyToClipboard('admin')" class="w-10 h-10 bg-white/10 rounded-xl flex items-center justify-center hover:bg-food-500 hover:text-white transition" title="نسخ">
+                                    <i class="bi bi-copy"></i>
+                                </button>
+                            </div>
+
+                            <div class="bg-black/30 p-4 rounded-2xl flex justify-between items-center group hover:bg-black/40 transition border border-white/5">
+                                <div>
+                                    <p class="text-xs text-gray-300 mb-1">كلمة المرور (Password)</p>
+                                    <p class="text-xl font-mono font-bold text-food-300 tracking-wider">1234</p> </div>
+                                <button onclick="copyToClipboard('1234')" class="w-10 h-10 bg-white/10 rounded-xl flex items-center justify-center hover:bg-food-500 hover:text-white transition" title="نسخ">
+                                    <i class="bi bi-copy"></i>
+                                </button>
+                            </div>
+                        </div>
+
+                        <a href="https://food.erp-x.shop/login" class="mt-8 w-full bg-food-600 hover:bg-food-500 text-white font-bold py-4 rounded-xl shadow-lg transition transform hover:-translate-y-1 flex justify-center items-center gap-2 border border-food-400">
+                            <span>دخول للمطعم</span>
+                            <i class="bi bi-door-open-fill"></i>
+                        </a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <footer class="bg-white py-10 border-t border-gray-100 mt-10">
+        <div class="container mx-auto px-6 text-center">
+            <p class="text-gray-500">جميع الحقوق محفوظة © 2025 لمنظومة <span class="text-food-700 font-bold">ERP-X</span></p>
+        </div>
+    </footer>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            once: true,
+            offset: 50,
+            duration: 800,
+        });
+
+        function copyToClipboard(text) {
+            navigator.clipboard.writeText(text).then(() => {
+                const toast = document.createElement('div');
+                toast.className = 'fixed bottom-10 left-1/2 transform -translate-x-1/2 bg-food-600 text-white px-6 py-3 rounded-full shadow-lg z-50 animate-bounce';
+                toast.innerText = 'تم النسخ: ' + text;
+                document.body.appendChild(toast);
+                setTimeout(() => toast.remove(), 2000);
+            });
+        }
+    </script>
+</body>
+</html>
